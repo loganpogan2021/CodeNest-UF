@@ -1,3 +1,7 @@
-console.log("LX Web UF är igång!");
+const data = ["klippning", "färgning", "naglar", "fransar"];
 
-<script src="script.js"></script>
+document.getElementById("search").addEventListener("input", function () {
+  const q = this.value.toLowerCase();
+  const hits = data.filter(item => item.toLowerCase().includes(q));
+  document.getElementById("results").innerHTML = hits.join("<br>");
+});
