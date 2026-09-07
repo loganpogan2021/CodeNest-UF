@@ -15,7 +15,8 @@ Projektet innehåller grundläggande struktur med `index.html` och `style.css`.
 MIT License
 CodeNest-UF/
 │
-├── index.html
-├── style.css
-├── README.md
-└── lxweb/
+├── index.html      ← HTML (hemsidan)
+├── style.css       ← CSS (design)
+├── script.js       ← JavaScript (valfritt)
+├── README.md       ← GitHub-text
+└── lxweb/          ← valfri mapp
