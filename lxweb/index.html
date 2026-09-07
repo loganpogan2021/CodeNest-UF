@@ -1,6 +1,215 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>LX Web UF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Välkommen till LX Web UF</h1>
+  <p>Vi bygger moderna och prisvärda hemsidor för företag & föreningar.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>LX Web UF – Vi bygger din hemsida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="LX Web UF bygger moderna, prisvärda hemsidor för företag och föreningar." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0f1a;
+      color: #ffffff;
+    }
+    nav {
+      background: #0f1c2e;
+      padding: 12px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #c7d4ff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #0f1c2e, #1a2f4d);
+    }
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #c7d4ff;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 8px;
+      background: #1b3f6b;
+      border-radius: 999px;
+      color: #ffffff;
+      text-decoration: none;
+      border: 1px solid #4ea3ff;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    section h2 {
+      font-size: 2rem;
+      border-bottom: 1px solid #2a3f63;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #132238;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+    }
+    .price {
+      font-size: 1.4rem;
+      color: #4ea3ff;
+      margin-bottom: 10px;
+    }
+    form {
+      display: grid;
+      gap: 12px;
+      max-width: 420px;
+    }
+    input, textarea {
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #2a3f63;
+      background: #0a0f1a;
+      color: #ffffff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f1c2e;
+      color: #8b9ac7;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#start">Start</a>
+    <a href="#tjanster">Tjänster</a>
+    <a href="#omoss">Om oss</a>
+    <a href="#priser">Priser</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <header id="start">
+    <h1>LX Web UF</h1>
+    <p>Vi bygger moderna och prisvärda hemsidor för företag & föreningar.</p>
+    <a href="#kontakt" class="btn">Kontakta oss</a>
+    <a href="#tjanster" class="btn">Se tjänster</a>
+  </header>
+
+  <main>
+
+    <section id="tjanster">
+      <h2>Tjänster</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Webbutveckling</h3>
+          <p>Vi bygger moderna, mobilanpassade och användarvänliga hemsidor.</p>
+        </div>
+        <div class="card">
+          <h3>SEO‑optimering</h3>
+          <p>Vi förbättrar din synlighet på Google med smart SEO.</p>
+        </div>
+        <div class="card">
+          <h3>Underhåll</h3>
+          <p>Vi håller din hemsida uppdaterad och säker.</p>
+        </div>
+        <div class="card">
+          <h3>Support</h3>
+          <p>Personlig hjälp när du behöver det.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="omoss">
+      <h2>Om oss</h2>
+      <p>LX Web UF drivs av Logan i Växjö. Vi skapar snygga, snabba och funktionella hemsidor som hjälper företag att synas online.</p>
+      <p>Vår vision är att bli det självklara valet för småföretag som vill ha en modern hemsida till ett rimligt pris.</p>
+    </section>
+
+    <section id="priser">
+      <h2>Priser</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Bas</h3>
+          <div class="price">3000 kr</div>
+          <p>1–3 sidor, mobilanpassad, enkel design.</p>
+        </div>
+        <div class="card">
+          <h3>Standard</h3>
+          <div class="price">4500 kr</div>
+          <p>3–5 sidor, SEO, anpassad design.</p>
+        </div>
+        <div class="card">
+          <h3>Premium</h3>
+          <div class="price">6000 kr</div>
+          <p>5+ sidor, avancerad design, extra funktioner.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Fyll i formuläret så återkommer vi!</p>
+
+      <form>
+        <input type="text" placeholder="Namn" />
+        <input type="email" placeholder="E‑post" />
+        <textarea placeholder="Meddelande"></textarea>
+        <button class="btn" type="submit">Skicka</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 LX Web UF – Alla rättigheter förbehålls.
+  </footer>
+
+</body>
+</html>
+
 CodeNest-UF/
 │
-├── index.html   ← HTML-koden du skickade ska ligga här
-├── style.css    ← CSS-koden du skickade tidigare ska ligga här
+├── index.html   ← måste ligga här
+├── style.css
 ├── README.md
 └── lxweb/
